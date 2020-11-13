@@ -1,0 +1,7 @@
+{
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "terminal.integrated.shell.windows": ""
+}
