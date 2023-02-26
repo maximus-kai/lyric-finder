@@ -6,6 +6,7 @@ import {BrowserRouter as Router ,Route ,Switch} from 'react-router-dom';
 import {Provider} from './context';
 import Lyrics from './components/tracks/Lyrics';
 
+// small changes are being made in secret here...
 
 function App() {
   
