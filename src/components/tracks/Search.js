@@ -10,7 +10,7 @@ class Search extends Component {
         this.setState({trackTitle:e.target.value})  
     }
     findTrack = (dispatch ,e) =>{
-  document.documentElement.requestFullscreen();
+//   document.documentElement.requestFullscreen();
 
          e.preventDefault()
          axios.get(`https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.search?q_track=${this.state.trackTitle}&page=1&page_size=10&s_track_rating=desc&apikey=${process.env.REACT_APP_MM_KEY}`)
